@@ -20,4 +20,4 @@ Use the [issue tracker](https://github.com/TinoTano/Gang_Wars/issues) here on Gi
 
 ## Play the game!
 
-(Game under development)
+[Release Page](https://github.com/TinoTano/Gang_Wars/releases) (Game under development)
