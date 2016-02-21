@@ -1,3 +1,5 @@
+![](http://i66.tinypic.com/jgie6s.png)
+
 ## Introduction
 
 **Gang Wars** is Zork-Like game created by **Adrià Martín** for the videogames degree at the UPC Barcelona 
