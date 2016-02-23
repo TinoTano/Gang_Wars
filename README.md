@@ -6,6 +6,9 @@
 
 ##Updates
 
+* **23/02/2016**
+ * [Release 1.0] (https://github.com/TinoTano/Gang_Wars/releases) added!
+
 * **21/02/2016** 
  * [Wiki](https://github.com/TinoTano/Gang_Wars/wiki) created
  * Readme updated
