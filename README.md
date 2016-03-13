@@ -6,6 +6,11 @@
 
 ##Updates
 
+* **13/03/2016**
+ * [Released version 2.0] (https://github.com/TinoTano/Gang_Wars/releases) added!
+ * Added rooms with descriptions and exit flow.
+ * Path between Destroyed Hospital and The Club is blocked. Use command 'open' to pass.
+
 * **23/02/2016**
  * [Release 1.0] (https://github.com/TinoTano/Gang_Wars/releases) added!
 
