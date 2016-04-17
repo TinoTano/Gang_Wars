@@ -11,8 +11,6 @@ class Player : public Entity
 {
 protected:
 	Rooms* initial_room;
-	my_string player_name;
-	my_string player_description;
 public:
 	Player(const my_string name, const my_string description, Rooms* room);
 	~Player();
