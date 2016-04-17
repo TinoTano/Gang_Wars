@@ -1,7 +1,9 @@
 #ifndef _WORLD_H_
 #define _WORLD_H_
 
-class Entity;
+#include "Entity.h"
+
+class Player;
 
 class World{
 public:
@@ -10,6 +12,7 @@ public:
 
 public:
 	dynArray<Entity*>entity;
+	Player* player;
 };
 
 #endif

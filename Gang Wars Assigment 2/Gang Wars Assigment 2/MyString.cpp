@@ -1,4 +1,11 @@
-#include "MyString.h"
+/*#include "MyString.h"
+
+my_string::my_string()
+{
+	capacity = 1;
+	string = new char[capacity];
+	string[capacity - 1] = '\0';
+}
 
 my_string::my_string(const char* str){
 
@@ -21,4 +28,4 @@ my_string::~my_string() {
 
 my_string::operator const char* () const{
 	return string;
-}
+}*/

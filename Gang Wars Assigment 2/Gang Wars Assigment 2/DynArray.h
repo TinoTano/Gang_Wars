@@ -13,9 +13,11 @@ class dynArray{
 private:
 	T* buffer;
 	uint capacity;
-	uint num_elements;
+	int num_elements;
 
 public:
+
+	//Constructors
 
 	dynArray() :
 		capacity(DYNARRAY_BLOCK_SIZE),
@@ -34,17 +36,22 @@ public:
 	dynArray(const dynArray& idynarray){
 		uint iarraysize = idynarray.capacity;
 		buffer = new T[iarraysize];
+		memcpy(buffer, idynarray.buffer, iarraysize*sizeof(T));
 		capacity = idynarray.capacity;
 		num_elements = idynarray.num_elements;
 	}
+
+	//Destructor
 
 	~dynArray(){
 		delete[] buffer;
 	}
 
+	//Methods
+
 	void PushBack(const T& element){
 		num_elements++;
-		if (num_elements > capacity){
+		if ((uint)num_elements > capacity){
 			dynArray<T> temp(*this);
 			delete[] buffer;
 			capacity = ((DYNARRAY_BLOCK_SIZE)*((num_elements / DYNARRAY_BLOCK_SIZE) + 1));
@@ -57,7 +64,7 @@ public:
 
 	void PushBack(){
 		num_elements++;
-		if (num_elements > capacity){
+		if ((uint)num_elements > capacity){
 			dynArray<T> temp(*this);
 			delete[] buffer;
 			capacity = ((DYNARRAY_BLOCK_SIZE)*((num_elements / DYNARRAY_BLOCK_SIZE) + 1));
@@ -66,7 +73,7 @@ public:
 		}
 	}
 
-	uint size()const{
+	int size()const{
 		return num_elements;
 	}
 
@@ -80,4 +87,4 @@ public:
 };
 
 
-#endif
+#endif 

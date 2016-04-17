@@ -3,7 +3,7 @@
 
 #include "Entity.h"
 
-class Room;
+class Rooms;
 
 class Exits : public Entity{
 protected:

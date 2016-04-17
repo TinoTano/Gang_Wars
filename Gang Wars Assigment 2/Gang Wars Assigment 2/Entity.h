@@ -21,6 +21,8 @@ protected:
 	dynArray<Entity*> entity_list;
 	
 public:
+	Entity(const my_string name, const my_string description);
+	~Entity();
 	void Look() const;
 
 };
