@@ -6,13 +6,18 @@
 
 ##Updates
 
+* **17/04/2016**
+ * [Released version 0.5] (https://github.com/TinoTano/Gang_Wars/releases) added!
+ * Added items
+ * Added new commands: pick/drop, inventory, equip/unequip, put/get, look.
+
 * **13/03/2016**
- * [Released version 2.0] (https://github.com/TinoTano/Gang_Wars/releases) added!
+ * [Released version 0.2] (https://github.com/TinoTano/Gang_Wars/releases) added!
  * Added rooms with descriptions and exit flow.
  * Path between Destroyed Hospital and The Club is blocked. Use command 'open' to pass.
 
 * **23/02/2016**
- * [Release 1.0] (https://github.com/TinoTano/Gang_Wars/releases) added!
+ * [Release 0.1] (https://github.com/TinoTano/Gang_Wars/releases) added!
 
 * **21/02/2016** 
  * [Wiki](https://github.com/TinoTano/Gang_Wars/wiki) created

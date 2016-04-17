@@ -9,10 +9,13 @@ class World{
 public:
 	World();
 	~World();
+	bool playing();
+	bool PlayerInput(Action action, my_string input);
 
 public:
 	dynArray<Entity*>entity;
 	Player* player;
+	bool player_info = false;
 };
 
 #endif

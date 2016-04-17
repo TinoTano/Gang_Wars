@@ -151,8 +151,6 @@ World::World(){
 	entity.PushBack(east_side_to_central_garden);
 	entity.PushBack(east_side_to_club);
 
-	player->get_player_info();
-	//printf("wfefe");
 	player = new Player("name", "description", West_Side_Suburbs);
 	entity.PushBack(player);
 
@@ -162,4 +160,32 @@ World::~World(){
 	for (int i = 0; i < entity.size(); i++){
 		delete entity[i];
 	}
+}
+
+bool World::playing(){
+
+	if (player_info == false){
+		player->get_player_name();
+		player_info = true;
+	}
+	
+	while (player->get_player_side()){};
+
+	printf("\newijfw");
+
+	return true;
+}
+
+bool World::PlayerInput(Action action, my_string input){
+	switch (action){
+	case 0:
+		if (input == "west" || input == "east"){
+			return true;
+		}
+		else{
+			printf("Not a valid side. Only east or west please.");
+		}
+		break;
+	}
+	return false;
 }

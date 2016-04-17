@@ -13,6 +13,12 @@ enum Entity_type
 	PLAYER
 };
 
+enum Action{
+	PLAYER_INFO,
+	DIRECTION,
+	COMMAND
+};
+
 class Entity{
 protected:
 	Entity_type type;
